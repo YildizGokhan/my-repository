@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guess Number Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+
+<body class="body">
+    <h1 class="guess">Guess Game</h1>
+    <div class="mqArea">
+        <button class="again">Again</button>
+        <h3 data-text="&nbsp;www.linkedin.com/in/gyildizz/&nbsp;">
+            LinkEdIn:www.linkedin.com/in/gyildizz/</h3>
+        <p class="range"></p>
+    </div>
+    <div class="guessArea">
+        <input type="number" name="" id="guessInput">
+        <button type="button" class="guessBtn">Guess</button>
+        <p class="explanation">Aralık</p>
+        <p class="count">Remaining:
+            <span class="live">10</span>
+        </p>
+        <p>Score: <span class="score">0</span></p>
+        <p>Top Score: <span class="topScore">0</span></p>
+
+    </div>
+
+    <div class="difficulty">
+        <h2 class="select-mode">Choose Difficulty Mode:</h2>
+        <div class="mode">
+            <button id="easy">Easy</button>
+            <button id="normal">Normal</button>
+            <button id="hard">Hard</button>
+        </div>
+    </div>
+
+
+    <audio src="./audio/Kazanma Sesi  Ses Efektleri.mp3" id="correctSound"></audio>
+    <audio src="./audio/YANLIŞ CEVAP SES EFEKTİ.mp3" id="wrongSound"></audio>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
